@@ -1,0 +1,94 @@
+.box{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 60px;
+}
+ol{
+    float: left;
+}
+ol li{
+    float: left;
+    width: 90px;
+   position: relative;
+    left: 100%;
+ list-style-type: none;
+}
+ol li a{
+       text-decoration: none;
+       color: black;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    right: 14%;
+    color: black;
+}
+.fa-user{
+    position: absolute;
+    right: 10%;
+    color: black;
+}
+.fa-heart{
+    position: absolute;
+    right: 6%;
+    color: black;
+}
+.fa-cart-shopping{
+    position: absolute;
+    right: 2%;
+    color: black;
+}
+h2{
+    position: relative;
+    left: -35%;
+    text-transform: uppercase;
+    font-family: cursive,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 4px;
+}
+font{
+    color: brown;
+}
+.cover img{
+    background-size: cover;
+    height: 900px;
+    width: 1328px;
+}
+.text{
+    position: absolute;
+    top: 8%;
+    left: 7%;
+}
+h1{
+    font-size: 70px;
+    text-transform: capitalize;
+    width: 400px;
+    color:black;
+    font-weight: normal;
+}
+h4{
+    position: absolute;
+    top: 7%;
+    font-size: 95%;
+    left: 10%;
+    text-transform: capitalize;
+}
+form input[type="submit"]{
+    position: absolute;
+    top:86% ;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color:brown;
+    color: whitesmoke;
+    left: 15%;
+    top: 80%;
+}
+form input[type="submit"]:hover{
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+
+}
+.fa-truck-fast{
+    float: left;
+   left: 170%;
+   size: 35%;
+}
